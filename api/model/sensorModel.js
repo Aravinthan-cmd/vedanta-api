@@ -35,96 +35,96 @@ const sensorSchema = new mongoose.Schema({
     sensor10:{
         type:Number
      },
-    // sensor11:{
-    //     type:Number
-    // },
-    // sensor12:{
-    //     type:Number
-    // },
-    // sensor13:{
-    //     type:Number
-    // },
-    // sensor14:{
-    //     type:Number
-    // },
-    // sensor15:{
-    //     type:Number
-    // },
-    // sensor16:{
-    //     type:Number
-    // },
-    // sensor17:{
-    //     type:Number
-    // },
-    // sensor18:{
-    //     type:Number
-    // },
-    // sensor19:{
-    //     type:Number
-    // },
-    // sensor20:{
-    //     type:Number
-    // },
-    // sensor21:{
-    //     type:Number
-    // },
-    // sensor22:{
-    //     type:Number
-    // },
-    // sensor23:{
-    //     type:Number
-    // },
-    // sensor24:{
-    //     type:Number
-    // },
-    // sensor25:{
-    //     type:Number
-    // },
-    // sensor26:{
-    //     type:Number
-    // },
-    // sensor27:{
-    //     type:Number
-    // },
-    // sensor28:{
-    //     type:Number
-    // },
-    // sensor29:{
-    //     type:Number
-    // },
-    // sensor30:{
-    //     type:Number
-    // },
-    // sensor31:{
-    //     type:Number
-    // },
-    // sensor32:{
-    //     type:Number
-    // },
-    // sensor33:{
-    //     type:Number
-    // },
-    // sensor34:{
-    //     type:Number
-    // },
-    // sensor35:{
-    //     type:Number
-    // },
-    // sensor36:{
-    //     type:Number
-    // },
-    // sensor37:{
-    //     type:Number
-    // },
-    // sensor38:{
-    //     type:Number
-    // },
-    // sensor39:{
-    //     type:Number
-    // },
-    // sensor40:{
-    //     type:Number
-    // },
+    sensor11:{
+        type:Number
+    },
+    sensor12:{
+        type:Number
+    },
+    sensor13:{
+        type:Number
+    },
+    sensor14:{
+        type:Number
+    },
+    sensor15:{
+        type:Number
+    },
+    sensor16:{
+        type:Number
+    },
+    sensor17:{
+        type:Number
+    },
+    sensor18:{
+        type:Number
+    },
+    sensor19:{
+        type:Number
+    },
+    sensor20:{
+        type:Number
+    },
+    sensor21:{
+        type:Number
+    },
+    sensor22:{
+        type:Number
+    },
+    sensor23:{
+        type:Number
+    },
+    sensor24:{
+        type:Number
+    },
+    sensor25:{
+        type:Number
+    },
+    sensor26:{
+        type:Number
+    },
+    sensor27:{
+        type:Number
+    },
+    sensor28:{
+        type:Number
+    },
+    sensor29:{
+        type:Number
+    },
+    sensor30:{
+        type:Number
+    },
+    sensor31:{
+        type:Number
+    },
+    sensor32:{
+        type:Number
+    },
+    sensor33:{
+        type:Number
+    },
+    sensor34:{
+        type:Number
+    },
+    sensor35:{
+        type:Number
+    },
+    sensor36:{
+        type:Number
+    },
+    sensor37:{
+        type:Number
+    },
+    sensor38:{
+        type:Number
+    },
+    sensor39:{
+        type:Number
+    },
+    sensor40:{
+        type:Number
+    },
     // sensor41:{
     //     type:Number
     // },
