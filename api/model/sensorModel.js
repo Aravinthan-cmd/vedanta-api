@@ -3,127 +3,127 @@ const {Schema} = mongoose;
 
 const sensorSchema = new mongoose.Schema({
     id:{
-        type:Number,
+        type:String,
     },
     sensor1:{
-        type:Number
+        type:String
     },
     sensor2:{
-        type:Number
+        type:String
     },
     sensor3:{
-        type:Number
+        type:String
     },
     sensor4:{
-        type:Number
+        type:String
     },
     sensor5:{
-        type:Number
+        type:String
     },
     sensor6:{
-        type:Number
+        type:String
     },
     sensor7:{
-        type:Number
+        type:String
     },
     sensor8:{
-        type:Number
+        type:String
     },
     sensor9:{
-        type:Number
+        type:String
     },
     sensor10:{
-        type:Number
+        type:String
      },
     sensor11:{
-        type:Number
+        type:String
     },
     sensor12:{
-        type:Number
+        type:String
     },
     sensor13:{
-        type:Number
+        type:String
     },
     sensor14:{
-        type:Number
+        type:String
     },
     sensor15:{
-        type:Number
+        type:String
     },
     sensor16:{
-        type:Number
+        type:String
     },
     sensor17:{
-        type:Number
+        type:String
     },
     sensor18:{
-        type:Number
+        type:String
     },
     sensor19:{
-        type:Number
+        type:String
     },
     sensor20:{
-        type:Number
+        type:String
     },
     sensor21:{
-        type:Number
+        type:String
     },
     sensor22:{
-        type:Number
+        type:String
     },
     sensor23:{
-        type:Number
+        type:String
     },
     sensor24:{
-        type:Number
+        type:String
     },
     sensor25:{
-        type:Number
+        type:String
     },
     sensor26:{
-        type:Number
+        type:String
     },
     sensor27:{
-        type:Number
+        type:String
     },
     sensor28:{
-        type:Number
+        type:String
     },
     sensor29:{
-        type:Number
+        type:String
     },
     sensor30:{
-        type:Number
+        type:String
     },
     sensor31:{
-        type:Number
+        type:String
     },
     sensor32:{
-        type:Number
+        type:String
     },
     sensor33:{
-        type:Number
+        type:String
     },
     sensor34:{
-        type:Number
+        type:String
     },
     sensor35:{
-        type:Number
+        type:String
     },
     sensor36:{
-        type:Number
+        type:String
     },
     sensor37:{
-        type:Number
+        type:String
     },
     sensor38:{
-        type:Number
+        type:String
     },
     sensor39:{
-        type:Number
+        type:String
     },
     sensor40:{
-        type:Number
+        type:String
     },
     time:{
         type:String
