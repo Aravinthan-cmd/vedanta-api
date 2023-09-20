@@ -46,10 +46,11 @@ export const userData = async (req, res) => {
 
 //Create
 export const createSensor = async(req,res)=>{
-    const {id, sensor1, sensor2, sensor3, sensor4, sensor5, sensor6, sensor7, sensor8, sensor9, sensor10,
+    const { id, sensor1, sensor2, sensor3, sensor4, sensor5, sensor6, sensor7, sensor8, sensor9, sensor10,
         sensor11, sensor12, sensor13, sensor14, sensor15, sensor16, sensor17, sensor18, sensor19, sensor20,
         sensor21, sensor22, sensor23, sensor24, sensor25, sensor26, sensor27, sensor28, sensor29, sensor30,
         sensor31, sensor32, sensor33, sensor34, sensor35, sensor36, sensor37, sensor38, sensor39, sensor40,
+        time,
         // sensor41, sensor42, sensor43, sensor44, sensor45, sensor46, sensor47, sensor48, sensor49, sensor50,
         // sensor51, sensor52, sensor53, sensor54, sensor55, sensor56, sensor57, sensor58, sensor59, sensor60,
         // sensor61, sensor62, sensor63, sensor64, sensor65, sensor66, sensor67, sensor68, sensor69, sensor70,
@@ -105,6 +106,8 @@ export const createSensor = async(req,res)=>{
             sensor38: Number(sensor38),
             sensor39: Number(sensor39),
             sensor40: Number(sensor40),
+
+            time: String(time),
 
             // sensor41: Number(sensor41),
             // sensor42: Number(sensor42),

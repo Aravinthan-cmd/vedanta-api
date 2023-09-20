@@ -125,6 +125,9 @@ const sensorSchema = new mongoose.Schema({
     sensor40:{
         type:Number
     },
+    time:{
+        type:String
+    }
     // sensor41:{
     //     type:Number
     // },
