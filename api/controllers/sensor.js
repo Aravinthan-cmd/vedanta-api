@@ -236,6 +236,16 @@ export const getAllSensor = async(req,res)=>{
     }
 };
 
+//get500
+export const getInitialSensor = async(req,res)=>{
+    try {
+        const getallsensor= await sensor.find().sort({updatedAt:-1}).limit(500);
+        res.status(200).json(getallsensor);
+    } catch (error) {
+        res.status(500).json(error);
+    }
+};
+
 //getsensor
 export const getUpdatedSensor = async(req,res)=>{
     try {

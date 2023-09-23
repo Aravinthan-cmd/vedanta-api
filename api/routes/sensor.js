@@ -1,5 +1,5 @@
 import express from "express";
-import { userData, createSensor, deleteSensor, getAllSensor, getSensor, getUpdatedSensor, updateSensor, userRegister } from "../controllers/sensor.js";
+import { userData, createSensor, deleteSensor, getAllSensor, getSensor, getUpdatedSensor, updateSensor, userRegister, getInitialSensor } from "../controllers/sensor.js";
 
 const router = express.Router();
 
@@ -23,6 +23,9 @@ router.get('/find/:id',getSensor);
 
 //getAll
 router.get('/find',getAllSensor);
+
+//getinitial
+router.get('/initial',getInitialSensor);
 
 //getUpdatedSensor
 router.get('/updated',getUpdatedSensor);
